@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 #======================================
-from backend.environment import environ
+from environment import environ
 
 SQL_ALCHEMY_DATASBASE_URL = environ.DATABASE_URL
 
