@@ -1,2 +1,6 @@
+#server
 fastapi
 uvicorn
+# db
+sqlalchemy
+psycopg2
